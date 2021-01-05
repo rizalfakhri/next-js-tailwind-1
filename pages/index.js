@@ -1,65 +1,38 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import Nav from '../components/Nav'
+import '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Nav />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <div className="flex flex-col items-center lg:flex-row">
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className="px-10 py-20 mx-auto lg:px-40 lg:py-40 lg:w-1/2">
+              <h1 className="text-4xl font-bold text-center lg:text-left">Your Best Value Propotition</h1>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+              <p className="my-10 text-center lg:my-5 lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptates placeat, recusandae aliquid, suscipit alias cum soluta, consequuntur earum explicabo minima!</p>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+              <div className="mx-auto mt-10 text-center lg:text-left">
+                <a href="" className="px-8 py-3 text-white bg-black border-2 border-black rounded-lg place-self-center">Start free trial</a>
+              </div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+          </div>
+
+          <div className="w-screen px-10 mx-auto lg:w-1/2 lg:px-40 lg:py-40">
+            <svg viewBox="0 0 670 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="669" height="479" rx="3.5" fill="white" stroke="black"/>
+              <circle cx="22" cy="22" r="5.5" stroke="black"/>
+              <circle cx="46" cy="22" r="5.5" stroke="black"/>
+              <circle cx="70" cy="22" r="5.5" stroke="black"/>
+            </svg>
+          </div>
+      </div>
+
+    </>
   )
 }

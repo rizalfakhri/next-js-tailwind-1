@@ -1,16 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+  background-color: #f2f2f2;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
-}
+/*h1 {*/
+  /*margin-top: 0px;*/
+/*}*/
+
+/** {*/
+  /*box-sizing: border-box;*/
+/*}*/
+
+/*.container {*/
+  /*min-width: 380px;*/
+  /*margin: 0 auto;*/
+  /*padding: 60px 0;*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+  /*.container {*/
+    /*width: 768px;*/
+  /*}*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+  /*.container {*/
+    /*width: 800px;*/
+  /*}*/
+/*}*/
+
+
+/*.row {*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*align-items: center;*/
+/*}*/
+
+/*.container-item {*/
+  /*width: 100%;*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+
+  /*.container-item {*/
+    /*width: 50%;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+  /*}*/
+
+/*}*/
+
+/*.copywriting {*/
+  /*order: 2;*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+  /*.copywriting {*/
+    /*order: 1;*/
+  /*}*/
+
+  /*.illustration {*/
+    /*order: 2;*/
+  /*}*/
+/*}*/
+
+/*.illustration {*/
+  /*order: 1;*/
+/*}*/
+
+/*.spacing {*/
+  /*margin-top: 20px;*/
+/*}*/
+
+/*.cta {*/
+  /*display: inline-block;*/
+  /*padding: 15px 25px;*/
+  /*background-color: #000;*/
+  /*color: #fff;*/
+  /*text-decoration: none;*/
+  /*border-radius: 3px;*/
+  /*transition: all .5s;*/
+/*}*/
+
+/*.cta:hover {*/
+  /*transform: scale(1.1);*/
+/*}*/
+
+/*.title {*/
+  /*font-family: "Lato";*/
+/*}*/
+
+/*.row-dua {*/
+  /*flex-direction: column;*/
+/*}*/
+
+/*.copywriting-dua {*/
+  /*text-align: center;*/
+/*}*/
+
+/*.container-item-dua {*/
+  /*margin-top: 20px;*/
+  /*margin-bottom: 20px;*/
+/*}*/
+
+/*.cta-learn-more {*/
+  /*display: inline-block;*/
+  /*border: 1px solid #000;*/
+  /*color: #000;*/
+  /*padding: 15px 30px;*/
+  /*text-decoration: none;*/
+/*}*/
+
+/*.right {*/
+  /*width: 100%;*/
+  /*background-color: #000;*/
+/*}*/
+
+/*.hero-image {*/
+  /*height: 768px;*/
+  /*background-image: url(https://images.unsplash.com/photo-1452830978618-d6feae7d0ffa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);*/
+  /*background-repeat: no-repeat;*/
+/*}*/
